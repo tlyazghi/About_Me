@@ -101,7 +101,7 @@ body {
 
 .links {
   display: flex;
-  width: 200px;
+  width: 300px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -130,6 +130,6 @@ body {
   transform: scale(1.1);
 }
 
-.mail-icon {
+.square-icon {
   border-radius: 10%;
 }
