@@ -39,6 +39,23 @@ function rightButton() {
     </p>
   </div>
   <div>
+    <img class='logo' src='images/best-buy-logo.jpg' alt='' />
+  </div>
+  <div>
+    <div class='experience-title'>
+      <p class='experience'>Best Buy</p>
+      <p class='experience'>New York, NY</p>
+    </div>
+    <div class='experience-title'>
+      <p class='experience-details'>Seasonal Sales Associate</p>
+      <p class='experience-details'>October 2023 - January 2024</p>
+    </div>
+    <p>
+      • Interacted with customers directly on the sale floor and developed a deep understanding of the consumer tech industry. <br />
+      • Consistently had the most revenue with the largest attachment basket in the PC department.
+    </p>
+  </div>
+  <div>
     <img class='logo' src='images/Common Energy Logo.webp' alt='' />
   </div>
   <div>
