@@ -33,10 +33,12 @@ body {
 
 .name {
   margin-left: 30px;
+  font-size: 4em;
 }
 
 .intro {
   margin-left: 15px;
+  font-size: 2em;
 }
 
 .my-journey {
@@ -132,4 +134,9 @@ body {
 
 .square-icon {
   border-radius: 10%;
+}
+
+#section-title {
+  font-size: 2em;
+  font-weight: bold;
 }
