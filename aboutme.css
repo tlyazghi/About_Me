@@ -1,23 +1,36 @@
 body {
-  font-family: Arial;
-  margin-right: 30px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Navbar */
 #navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
   top: 0;
-  height: 30px;
+  height: 50px;
   width: 100%;
   background-color: #fbfbfc;
   transition: top 0.3s;
+  z-index: 1000;
 }
 
 #navbar.hidden {
-  top: -30px;
+  top: -50px;
 }
+
+#navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  padding: 10px;
+}
+
+/* Profile Section */
 .profile-pic {
   color: white;
   padding-top: 100px;
@@ -27,9 +40,9 @@ body {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-image: url(images/image000009.jpg);
 }
-
 
 .name {
   margin-left: 30px;
@@ -41,18 +54,22 @@ body {
   font-size: 2em;
 }
 
+/* My Journey Section */
 .my-journey {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #000;
   padding-bottom: 20px;
+  margin: 20px;
 }
+
 .bio {
   margin-bottom: 1px;
+  text-align: center;
 }
 
-
+/* Resume Type Section */
 .resume-type {
   display: flex;
   align-items: center;
@@ -68,29 +85,45 @@ body {
   cursor: pointer;
 }
 
+#section-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Work Experience Grid */
 .workexperience-grid {
-  margin-top: 0px;
+  margin: 20px;
   display: grid;
   grid-template-columns: 100px 1fr;
-  grid-column-gap: 130px;
+  grid-column-gap: 30px;
   grid-row-gap: 20px;
-  border: solid;
+  border: 2px solid #000; /* Increased border width and made it black */
   border-radius: 10px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .logo {
-  margin-top: 50px;
-  width: 150px;
-  margin-left: 30px;
+  width: 100px;
+  height: auto;
+  margin-left: 0;
+}
+
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.experience {
+  font-weight: bold;
 }
 
 .experience-details {
-  font-style: italic ;
+  font-style: italic;
 }
 
+/* Links Container */
 .links-container {
   color: white;
   height: 150px;
@@ -103,18 +136,20 @@ body {
 
 .links {
   display: flex;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   justify-content: space-evenly;
   align-items: center;
 }
-.experience {
-  font-weight: bold ;
+
+.link-button {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s;
 }
 
-.experience-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.link-button:hover {
+  transform: scale(1.1);
 }
 
 .link-image {
@@ -123,20 +158,105 @@ body {
   object-fit: cover;
 }
 
-.link-button {
-  height: 50px;
-  transition: transform 0.3s;
-}
-
-.link-button:hover {
-  transform: scale(1.1);
-}
-
 .square-icon {
   border-radius: 10%;
 }
 
-#section-title {
-  font-size: 2em;
-  font-weight: bold;
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .name {
+    font-size: 2.5em;
+    margin-left: 15px;
+  }
+
+  .intro {
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+
+  .profile-pic {
+    height: 300px;
+    padding-top: 80px;
+  }
+
+  .workexperience-grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 80px;
+    margin: 0 auto;
+  }
+
+  .experience-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .experience-details {
+    margin-top: 5px;
+  }
+
+  .resume-type {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  #section-title {
+    font-size: 1.5em;
+  }
+
+  .links-container {
+    height: 120px;
+  }
+
+  .link-button {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Media Queries for Very Small Screens */
+@media (max-width: 480px) {
+  .name {
+    font-size: 2em;
+  }
+
+  .intro {
+    font-size: 1.2em;
+  }
+
+  .profile-pic {
+    height: 250px;
+    padding-top: 60px;
+  }
+
+  .workexperience-grid {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .resume-type {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #section-title {
+    font-size: 1.2em;
+  }
+
+  .links-container {
+    height: 100px;
+  }
+
+  .link-button {
+    height: 30px;
+    width: 30px;
+  }
 }
