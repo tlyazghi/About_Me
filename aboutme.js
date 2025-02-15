@@ -15,6 +15,24 @@ window.onscroll = function() {
 
 
 workxpinnerhtml = `<div>
+<img class='logo' src='images/BCF_Logo.jpg' alt='' />
+</div>
+<div>
+<div class='experience-title'>
+  <p class='experience'>Bio Carbon Fuels LLC.</p>
+  <p class='experience'>New York, NY</p>
+</div>
+<div class='experience-title'>
+  <p class='experience-details'>Project Manager</p>
+  <p class='experience-details'>January 2024 – Present</p>
+</div>
+<p>
+  • Built and optimized financial models for multiple MSW-to-Fuel plants. <br />
+  • Conducted feasibility analyses and developed comprehensive financial forecasts for energy plant projects. <br />
+  • Created and managed Gantt charts to streamline project timelines and resource allocation
+</p>
+</div>
+<div>
 <img class='logo' src='images/Mid Market logo.jpg' alt='' />
 </div>
 <div>
@@ -24,7 +42,7 @@ workxpinnerhtml = `<div>
 </div>
 <div class='experience-title'>
   <p class='experience-details'>Investment Banking Analyst</p>
-  <p class='experience-details'>January 2023 - Present</p>
+  <p class='experience-details'>January 2023 - January 2024</p>
 </div>
 <p>
   • Developed a comprehensive financial model for BioCarbon Fuel LLC’s
@@ -113,7 +131,8 @@ workxpinnerhtml = `<div>
   • Developed and maintained a database to track the progress of
   divestment efforts.
 </p>
-</div>`
+</div>
+`
 
 edcuationinnerhtml = `<div>
 <img
@@ -215,6 +234,99 @@ edcuationinnerhtml = `<div>
 </p>
 </div>`
 
+skillsinnerhtml =  `<div>
+<img
+  class="logo"
+  src="images/Python-logo.png"
+  alt="Python"
+/>
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">Python</p>
+  
+</div>
+<div class="experience-title">
+</div>
+<p>
+  I have extensive experience using Python to streamline workflows, automate repetitive tasks, and develop backend systems for a variety of applications. F
+  or example, I designed and implemented a backend system for an e-commerce site using Python, leveraging frameworks like Flask and Django to create scalable and secure APIs, manage databases, and integrate payment gateways. Additionally, I automated the monthly update process for a financial Excel model by writing Python scripts that fetch the latest commodity prices from external sources and update the model using libraries like pandas and openpyxl. I also automated the generation of associated executive summaries and presentations by integrating python-pptx and docx libraries, saving significant time and reducing manual errors. Beyond financial modeling, I developed a Python script using Selenium to automate the process of filling out job applications on the Workday website, navigating web forms and handling dynamic elements to streamline the application process. My work has involved extensive use of libraries such as Selenium for web automation, pandas and NumPy for data manipulation and analysis, openpyxl and XlsxWriter for Excel automation, and python-pptx and docx for automating PowerPoint and Word documents. These projects highlight my ability to leverage Python to solve complex problems, automate workflows, and deliver innovative, efficient solutions across diverse domains.
+</p>
+</div>
+<div>
+<img class="logo" src="images/Excel-Logo.png" alt="" />
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">Microsoft Excel</p>
+</div>
+<div class="experience-title">
+</div>
+<p>
+  I have extensive experience using Microsoft Excel for financial analysis, modeling, and data-driven decision-making. As an Investment Banking Analyst, I utilized Excel to analyze market trends, perform valuations using methodologies such as discounted cash flow (DCF) and comparable company analysis, and create detailed financial models to support investment recommendations. At BioCarbon Fuels (BCF), I built financial models from scratch to evaluate project feasibility, forecast cash flows, and assess profitability, while also updating and refining pre-existing models to reflect new data and scenarios. I am highly proficient in Excel formulas, functions, and advanced features such as pivot tables, data validation, and conditional formatting. Additionally, I am comfortable navigating Excel both through the program itself and by automating tasks using Python, which allows me to streamline workflows and enhance efficiency. My ability to create, edit, and optimize financial models demonstrates my strong analytical skills and adaptability in leveraging Excel for complex financial analysis.
+</p>
+</div>
+<div>
+<img class="logo" src="images/microsoft-word-logo.jpg" alt="" />
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">Microsoft Word</p>
+</div>
+<div class="experience-title">
+</div>
+<p>
+  During my role as an Investment Banking Analyst, I used Microsoft Word extensively to create comprehensive industry research reports, leveraging both pre-existing templates and building documents from scratch to meet specific needs. These reports involved in-depth analysis of market trends, financial data, and competitive landscapes, which I presented in a clear, structured, and visually appealing format. I also customized templates to streamline the report-writing process, ensuring consistency and efficiency across deliverables. Additionally, I applied these skills at BioCarbon Fuels, where I wrote executive summaries and project reports, tailoring content to highlight key insights and recommendations for stakeholders. My ability to work with and create templates, combined with my attention to detail and strong analytical writing, allowed me to produce professional, high-quality documents that effectively communicated complex information.
+</p>
+</div>
+<div>
+<img class="logo" src="images/PowerPoint-logo.png" alt="" />
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">Microsoft Powerpoint</p>
+</div>
+<div class="experience-title">
+</div>
+<p>
+  During my time at Hold Brothers Capital, I used Microsoft PowerPoint to create professional and visually compelling pitch books for client presentations. These pitch books were designed to clearly communicate complex financial data, investment strategies, and market insights, ensuring they were both informative and engaging for stakeholders. Additionally, I utilized PowerPoint to develop detailed presentations for Biocarbon Fuels, where I illustrated the types of equipment used in the conversion process and explained the entire workflow from municipal solid waste (MSW) to fuel. These presentations were critical for conveying technical information in an accessible and visually appealing manner. 
+</p>
+</div>
+<div>
+<img class="logo" src="images/stata.svg" alt="" />
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">Stata</p>
+</div>
+<div class="experience-title">
+</div>
+<p>
+  For my Macroeconomics Thesis in my senior year, I used Stata extensively to examine the impact of private schooling on earnings,
+  using data from the Panel Study of Income Dynamics (PSID) to explore how private education influences income levels and whether these effects vary by race and sex.
+  In this study, Stata played a central role in managing, cleaning, and analyzing the data from the Panel Study of Income Dynamics (PSID). One of the first steps was restructuring the dataset to make it suitable for analysis. The original PSID data contained dozens of year-specific wage variables, with each row representing a single individual and columns for each year’s wage data. To convert this into a more usable format, I used Stata’s reshape command. This transformed the data from a wide format (one row per person) to a long format (multiple rows per person, with each row representing a person-year observation). Additionally, I renamed the wage variables to make them more intuitive and easier to work with during the analysis. This restructuring was critical for creating a single wage variable and organizing the data into person-year rows, which allowed for a more flexible and detailed analysis over time.
+
+After reshaping the data, I used Stata for extensive data cleaning. This involved removing outliers, such as the top and bottom 1% of wage values, and dropping observations with missing or negative wage data. Stata’s commands, such as drop, keep, and generate, were essential for filtering the dataset and creating new variables, including age squared, which was later used in the regression models. I also used Stata’s summarize command to generate descriptive statistics for key variables, such as log wages, private schooling status, age, education level, and parental education. This provided a clear overview of the dataset’s distribution and characteristics before proceeding with the regression analysis.
+
+For the statistical analysis, Stata’s regress command was used to run multiple regression models. The primary model regressed log wages against private schooling status while controlling for variables like education, parental education, age, and age squared. I also ran separate regressions for different demographic groups, such as men versus women and different racial groups, using the if qualifier to subset the data. Stata’s output tables were used to present the regression results, including coefficients, standard errors, and R-squared values, which were then formatted and exported for inclusion in the final paper. The ability to handle large datasets efficiently was another advantage of Stata, as the PSID dataset is both large and complex. Commands like collapse and merge were used to organize and combine data as needed, ensuring the analysis was both accurate and comprehensive.
+
+Overall, Stata was indispensable for this study, from reshaping and cleaning the data to running regressions and interpreting results. Its flexibility and robust commands allowed me to rigorously test my hypotheses and draw meaningful conclusions about the impact of private schooling on earnings. The use of reshape was particularly important, as it enabled me to reorganize the data into a format that facilitated a more detailed and dynamic analysis over time. 
+</p>
+</div>
+<div>
+<img class="logo" src="images/htmlcssjs-logo.jpg" alt="" />
+</div>
+<div>
+<div class="experience-title">
+  <p class="experience">HTML | CSS | JS</p>
+</div>
+<div class="experience-title">
+</div>
+<p>
+  I have extensive experience using HTML, CSS, and JavaScript to design and develop dynamic, user-friendly websites and web applications. For my personal portfolio website, I utilized HTML for structuring content, CSS for styling and responsive design, and JavaScript to add interactivity and enhance the user experience. In another project, I built an e-commerce website by combining these front-end technologies with Django for the backend, creating a seamless integration of user interfaces, database management, and payment processing. Additionally, during my time with American on Tech, I co-developed a web application called Locus, a social media platform that allowed users to post photos tagged with geographic locations on an interactive map. This project involved using JavaScript to integrate mapping APIs, HTML and CSS to design the interface, and Django to handle user authentication, photo uploads, and location data storage. These experiences demonstrate my ability to leverage front-end technologies alongside backend frameworks to create innovative, functional, and visually appealing web solutions.
+</p>
+</div>`
+
 function rightButton() {
   let sectionTitle = document.getElementById("section-title");
   if (sectionTitle.innerHTML === 'Education') {
@@ -229,13 +341,18 @@ function rightButton() {
   }
   else if (sectionTitle.innerHTML === 'Work Experience') {
     sectionTitle.innerHTML = 'Skills'
+    let sectionData = document.querySelector('.workexperience-grid')
+    sectionData.innerHTML = skillsinnerhtml
   }
+
 }
 
 function leftButton() {
   let sectionTitle = document.getElementById("section-title");
   if (sectionTitle.innerHTML === 'Education') {
     sectionTitle.innerHTML = 'Skills'
+    let sectionData = document.querySelector('.workexperience-grid')
+    sectionData.innerHTML = skillsinnerhtml
   }
   else if (sectionTitle.innerHTML === 'Skills')  {
     sectionTitle.innerHTML = 'Work Experience'
