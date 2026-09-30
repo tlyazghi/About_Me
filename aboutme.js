@@ -13,21 +13,21 @@ window.onscroll = function () {
 };
 
 workxpinnerhtml = `<div>
-<img class='logo' src='images/BCF_Logo.jpg' alt='' />
+<img class='logo' src='images/Brown_Brothers_Harriman_logo.png' alt='' />
 </div>
 <div>
 <div class='experience-title'>
-  <p class='experience'>Bio Carbon Fuels LLC.</p>
-  <p class='experience'>New York, NY</p>
+  <p class='experience'>Brown Brothers Harriman</p>
+  <p class='experience'>Jersey City, NJ</p>
 </div>
 <div class='experience-title'>
-  <p class='experience-details'>Project Manager</p>
-  <p class='experience-details'>January 2024 – Present</p>
+  <p class='experience-details'>Product & Projects</p>
+  <p class='experience-details'>September 2025 – Present</p>
 </div>
 <p>
-  • Built and optimized financial models for multiple MSW-to-Fuel plants. <br />
-  • Conducted feasibility analyses and developed comprehensive financial forecasts for energy plant projects. <br />
-  • Created and managed Gantt charts to streamline project timelines and resource allocation
+  • Managed UAT Testing for the Mutual Funds Processing Service, coordinating between multiple teams to update the system in time for implementation. <br />
+  • Used python to determine all accounts from the database requiring an update to their service code. <br />
+  • Used python to determine which fund companies to target for SSI changes.
 </p>
 </div>
 <div>
