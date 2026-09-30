@@ -1,6 +1,6 @@
 let prevScrollPos = window.scrollY;
-// use let instead of const here.  
-window.onscroll = function() {
+// use let instead of const here.
+window.onscroll = function () {
   const currentScrollPos = window.scrollY;
 
   if (prevScrollPos > currentScrollPos) {
@@ -12,9 +12,25 @@ window.onscroll = function() {
   prevScrollPos = currentScrollPos;
 };
 
-
-
 workxpinnerhtml = `<div>
+<img class='logo' src='images/BCF_Logo.jpg' alt='' />
+</div>
+<div>
+<div class='experience-title'>
+  <p class='experience'>Bio Carbon Fuels LLC.</p>
+  <p class='experience'>New York, NY</p>
+</div>
+<div class='experience-title'>
+  <p class='experience-details'>Project Manager</p>
+  <p class='experience-details'>January 2024 – Present</p>
+</div>
+<p>
+  • Built and optimized financial models for multiple MSW-to-Fuel plants. <br />
+  • Conducted feasibility analyses and developed comprehensive financial forecasts for energy plant projects. <br />
+  • Created and managed Gantt charts to streamline project timelines and resource allocation
+</p>
+</div>
+<div>
 <img class='logo' src='images/BCF_Logo.jpg' alt='' />
 </div>
 <div>
@@ -132,7 +148,7 @@ workxpinnerhtml = `<div>
   divestment efforts.
 </p>
 </div>
-`
+`;
 
 edcuationinnerhtml = `<div>
 <img
@@ -232,9 +248,9 @@ edcuationinnerhtml = `<div>
   in leading independent school and continues to work closely with them
   through high school and beyond.
 </p>
-</div>`
+</div>`;
 
-skillsinnerhtml =  `<div>
+skillsinnerhtml = `<div>
 <img
   class="logo"
   src="images/Python-logo.png"
@@ -325,43 +341,38 @@ Overall, Stata was indispensable for this study, from reshaping and cleaning the
 <p>
   I have extensive experience using HTML, CSS, and JavaScript to design and develop dynamic, user-friendly websites and web applications. For my personal portfolio website, I utilized HTML for structuring content, CSS for styling and responsive design, and JavaScript to add interactivity and enhance the user experience. In another project, I built an e-commerce website by combining these front-end technologies with Django for the backend, creating a seamless integration of user interfaces, database management, and payment processing. Additionally, during my time with American on Tech, I co-developed a web application called Locus, a social media platform that allowed users to post photos tagged with geographic locations on an interactive map. This project involved using JavaScript to integrate mapping APIs, HTML and CSS to design the interface, and Django to handle user authentication, photo uploads, and location data storage. These experiences demonstrate my ability to leverage front-end technologies alongside backend frameworks to create innovative, functional, and visually appealing web solutions.
 </p>
-</div>`
+</div>`;
 
 function rightButton() {
   let sectionTitle = document.getElementById("section-title");
-  if (sectionTitle.innerHTML === 'Education') {
-    sectionTitle.innerHTML = 'Work Experience'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = workxpinnerhtml
+  if (sectionTitle.innerHTML === "Education") {
+    sectionTitle.innerHTML = "Work Experience";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = workxpinnerhtml;
+  } else if (sectionTitle.innerHTML === "Skills") {
+    sectionTitle.innerHTML = "Education";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = edcuationinnerhtml;
+  } else if (sectionTitle.innerHTML === "Work Experience") {
+    sectionTitle.innerHTML = "Skills";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = skillsinnerhtml;
   }
-  else if (sectionTitle.innerHTML === 'Skills')  {
-    sectionTitle.innerHTML = 'Education'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = edcuationinnerhtml
-  }
-  else if (sectionTitle.innerHTML === 'Work Experience') {
-    sectionTitle.innerHTML = 'Skills'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = skillsinnerhtml
-  }
-
 }
 
 function leftButton() {
   let sectionTitle = document.getElementById("section-title");
-  if (sectionTitle.innerHTML === 'Education') {
-    sectionTitle.innerHTML = 'Skills'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = skillsinnerhtml
-  }
-  else if (sectionTitle.innerHTML === 'Skills')  {
-    sectionTitle.innerHTML = 'Work Experience'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = workxpinnerhtml
-  }
-  else if (sectionTitle.innerHTML === 'Work Experience') {
-    sectionTitle.innerHTML = 'Education'
-    let sectionData = document.querySelector('.workexperience-grid')
-    sectionData.innerHTML = edcuationinnerhtml
+  if (sectionTitle.innerHTML === "Education") {
+    sectionTitle.innerHTML = "Skills";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = skillsinnerhtml;
+  } else if (sectionTitle.innerHTML === "Skills") {
+    sectionTitle.innerHTML = "Work Experience";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = workxpinnerhtml;
+  } else if (sectionTitle.innerHTML === "Work Experience") {
+    sectionTitle.innerHTML = "Education";
+    let sectionData = document.querySelector(".workexperience-grid");
+    sectionData.innerHTML = edcuationinnerhtml;
   }
 }
